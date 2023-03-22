@@ -1105,10 +1105,6 @@
     (stroke (width 0) (type default))
     (uuid 01133d8a-a11d-4fbe-b588-4fed5a91ab23)
   )
-  (wire (pts (xy 181.61 80.01) (xy 184.15 80.01))
-    (stroke (width 0) (type default))
-    (uuid 0279ea8f-0159-4084-a93a-d182314c8af2)
-  )
   (wire (pts (xy 162.56 62.23) (xy 173.99 62.23))
     (stroke (width 0) (type default))
     (uuid 06a8e25a-24e2-4e11-a789-5d2723b7fa9f)
@@ -1253,7 +1249,7 @@
     (stroke (width 0) (type default))
     (uuid 600b6692-59d1-43c7-8bf0-c8352530e7c8)
   )
-  (wire (pts (xy 181.61 67.31) (xy 181.61 80.01))
+  (wire (pts (xy 181.61 67.31) (xy 181.61 77.47))
     (stroke (width 0) (type default))
     (uuid 60c50f95-c56e-4940-baf0-947bda4b1d44)
   )
@@ -1262,6 +1258,10 @@
     (uuid 61d17850-cc86-43fc-a77a-fe0d77a3c5b5)
   )
 
+  (wire (pts (xy 186.69 67.31) (xy 186.69 69.85))
+    (stroke (width 0) (type default))
+    (uuid 681e5725-7e1b-4370-9e3e-07aa7fc51d65)
+  )
   (wire (pts (xy 100.33 77.47) (xy 100.33 85.09))
     (stroke (width 0) (type default))
     (uuid 6a651a3d-c8c1-4bf4-b922-67858318d77b)
@@ -1279,6 +1279,14 @@
     (uuid 70d3cb72-7f4a-4e08-bb13-1f5b2373f8bb)
   )
 
+  (wire (pts (xy 184.15 67.31) (xy 186.69 67.31))
+    (stroke (width 0) (type default))
+    (uuid 747d7a72-c2b0-4c65-b965-1f0894dae011)
+  )
+  (wire (pts (xy 181.61 77.47) (xy 186.69 77.47))
+    (stroke (width 0) (type default))
+    (uuid 7534d0c6-a938-4a6e-bb1c-55711ec7d230)
+  )
   (wire (pts (xy 100.33 39.37) (xy 100.33 26.67))
     (stroke (width 0) (type default))
     (uuid 764c8a68-bab0-4a18-a0fb-709e8be2450e)
@@ -1367,10 +1375,6 @@
   (wire (pts (xy 254 82.55) (xy 254 80.01))
     (stroke (width 0) (type default))
     (uuid a5d6517d-456f-4069-a302-09b79fcece48)
-  )
-  (wire (pts (xy 184.15 67.31) (xy 184.15 72.39))
-    (stroke (width 0) (type default))
-    (uuid a79cb19d-146c-4ffb-8095-1258b86018fd)
   )
   (wire (pts (xy 88.9 95.25) (xy 88.9 96.52))
     (stroke (width 0) (type default))
@@ -1600,19 +1604,19 @@
     (uuid e45d15bd-85b7-4a60-a990-f560b47643df)
   )
 
-  (symbol (lib_id "Device:C") (at 184.15 76.2 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 186.69 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0082e0c4-08d6-4d28-a8df-93e07655917f)
-    (property "Reference" "C11" (at 187.96 75.565 0)
+    (property "Reference" "C10" (at 190.5 73.025 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u" (at 187.96 78.105 0)
+    (property "Value" "10u" (at 190.5 75.565 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 185.1152 80.01 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 187.6552 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 184.15 76.2 0)
+    (property "Datasheet" "~" (at 186.69 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d9eddbef-878d-4ea7-bbe5-04e1b769fc53))
@@ -1620,7 +1624,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "C11") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -1629,7 +1633,7 @@
   (symbol (lib_id "Device:C") (at 158.75 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00f50ade-3431-4031-9ed5-12326c5efe9f)
-    (property "Reference" "C9" (at 158.75 54.61 90)
+    (property "Reference" "C7" (at 158.75 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 158.75 57.15 90)
@@ -1646,7 +1650,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "C9") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1835,7 +1839,7 @@
   (symbol (lib_id "power:VCC") (at 179.07 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30bbf985-b8d1-4025-bbe5-2e4153611350)
-    (property "Reference" "#PWR018" (at 179.07 26.67 0)
+    (property "Reference" "#PWR016" (at 179.07 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 179.07 19.05 0)
@@ -1851,7 +1855,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1886,7 +1890,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 234.95 102.87 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34200e56-04b1-4bd4-ba26-0f8a8400391d)
-    (property "Reference" "J2" (at 233.68 103.505 0)
+    (property "Reference" "J3" (at 233.68 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PWR in" (at 233.68 106.045 0)
@@ -1903,7 +1907,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1941,7 +1945,7 @@
     (property "Reference" "L3" (at 114.3 33.0199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "56u" (at 114.3 35.5599 0)
+    (property "Value" "12u" (at 114.3 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 113.03 34.29 0)
@@ -1989,7 +1993,7 @@
   (symbol (lib_id "power:VCC") (at 275.59 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d739e24-a899-4c04-9dfb-747ff2d4d36a)
-    (property "Reference" "#PWR026" (at 275.59 106.68 0)
+    (property "Reference" "#PWR028" (at 275.59 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 275.59 99.06 0)
@@ -2005,7 +2009,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -2097,7 +2101,7 @@
   (symbol (lib_id "Device:C") (at 189.23 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45c6c246-f64a-48ae-b8b0-eeac878a8f46)
-    (property "Reference" "C13" (at 189.23 41.91 90)
+    (property "Reference" "C12" (at 189.23 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22u" (at 189.23 44.45 90)
@@ -2114,7 +2118,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "C13") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -2123,7 +2127,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 171.45 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e15c052-1779-4401-8415-040636102e14)
-    (property "Reference" "#FLG03" (at 171.45 46.355 0)
+    (property "Reference" "#FLG01" (at 171.45 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 171.45 44.45 0)
@@ -2139,7 +2143,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -2251,7 +2255,7 @@
   (symbol (lib_id "Device:C") (at 189.23 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 573c7098-4941-4d59-889f-d666b10bb928)
-    (property "Reference" "C12" (at 189.23 29.21 90)
+    (property "Reference" "C11" (at 189.23 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22u" (at 189.23 31.75 90)
@@ -2268,7 +2272,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "C12") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2407,7 +2411,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 254 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 702881f9-e640-4522-952e-0e101705bc21)
-    (property "Reference" "#FLG01" (at 254 78.105 0)
+    (property "Reference" "#FLG02" (at 254 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 254 76.2 0)
@@ -2423,7 +2427,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -2458,7 +2462,7 @@
   (symbol (lib_id "power:GND") (at 179.07 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76c1ea0a-85ea-481a-94c9-24afed4ba6fd)
-    (property "Reference" "#PWR019" (at 179.07 73.66 0)
+    (property "Reference" "#PWR017" (at 179.07 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 72.39 0)
@@ -2474,7 +2478,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2560,7 +2564,7 @@
   (symbol (lib_id "Device:C") (at 160.02 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88779e77-cc04-4ca4-9f62-a922e04d5c85)
-    (property "Reference" "C7" (at 160.02 96.52 90)
+    (property "Reference" "C8" (at 160.02 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10n" (at 160.02 99.06 90)
@@ -2577,7 +2581,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "C7") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -2638,7 +2642,7 @@
   (symbol (lib_id "Device:C") (at 171.45 107.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8de5e146-336f-4545-b09e-4dd1d93eae18)
-    (property "Reference" "C8" (at 175.26 106.6799 0)
+    (property "Reference" "C9" (at 175.26 106.6799 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "820p" (at 175.26 109.2199 0)
@@ -2655,7 +2659,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "C8") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2714,7 +2718,7 @@
   (symbol (lib_id "power:GND") (at 274.32 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9984049e-8c3e-4d51-9374-2da0e7523d78)
-    (property "Reference" "#PWR029" (at 274.32 88.9 0)
+    (property "Reference" "#PWR027" (at 274.32 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 87.63 0)
@@ -2730,7 +2734,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2764,7 +2768,7 @@
   (symbol (lib_id "power:GND") (at 171.45 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1d83c8e-ffa4-4f69-bedf-ad37e3bb8d42)
-    (property "Reference" "#PWR014" (at 171.45 118.11 0)
+    (property "Reference" "#PWR015" (at 171.45 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 116.84 0)
@@ -2780,7 +2784,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2840,7 +2844,7 @@
   (symbol (lib_id "power:GND") (at 198.12 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1d3ca20-ff3f-41b9-ba8b-8c7a7c96c5cd)
-    (property "Reference" "#PWR020" (at 198.12 86.36 0)
+    (property "Reference" "#PWR019" (at 198.12 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.12 85.09 0)
@@ -2856,7 +2860,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2865,7 +2869,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 274.32 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5640e96-c019-478e-ba26-b97536bc4406)
-    (property "Reference" "#FLG02" (at 274.32 78.105 0)
+    (property "Reference" "#FLG03" (at 274.32 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 274.32 76.2 0)
@@ -2881,7 +2885,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -2967,7 +2971,7 @@
   (symbol (lib_id "power:GND") (at 189.23 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c22a970b-d962-43e6-a048-88648fdf57cb)
-    (property "Reference" "#PWR015" (at 189.23 118.11 0)
+    (property "Reference" "#PWR018" (at 189.23 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 116.84 0)
@@ -2983,7 +2987,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2992,7 +2996,7 @@
   (symbol (lib_id "power:GND") (at 275.59 113.03 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7873f36-2d79-4807-9259-e9c1aa6a0584)
-    (property "Reference" "#PWR027" (at 275.59 119.38 0)
+    (property "Reference" "#PWR029" (at 275.59 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 275.59 118.11 0)
@@ -3008,7 +3012,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -3070,7 +3074,7 @@
   (symbol (lib_id "power:GND") (at 171.45 57.15 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d19811b1-55ce-4137-a407-5d6b9d50c337)
-    (property "Reference" "#PWR016" (at 165.1 57.15 0)
+    (property "Reference" "#PWR014" (at 165.1 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 57.785 90)
@@ -3086,7 +3090,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3196,7 +3200,7 @@
   (symbol (lib_id "power:GND") (at 199.39 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df73fdea-e4d1-45e4-883f-a0efd3862d43)
-    (property "Reference" "#PWR021" (at 199.39 41.91 0)
+    (property "Reference" "#PWR020" (at 199.39 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 199.39 40.64 0)
@@ -3212,7 +3216,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3221,7 +3225,7 @@
   (symbol (lib_id "Device:C") (at 189.23 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e220c950-1397-44af-85f2-8dcca3db7e0c)
-    (property "Reference" "C10" (at 193.04 106.6799 0)
+    (property "Reference" "C13" (at 193.04 106.6799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "820p" (at 193.04 109.2199 0)
@@ -3238,7 +3242,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "C10") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3247,7 +3251,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Socket") (at 217.17 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4143172-5e9d-40af-88e3-9d95ad41578f)
-    (property "Reference" "J3" (at 218.44 64.135 0)
+    (property "Reference" "J2" (at 218.44 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "jack_connecor" (at 218.44 66.675 0)
@@ -3267,7 +3271,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3327,7 +3331,7 @@
   (symbol (lib_id "power:GND") (at 199.39 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef2ed5d9-e840-4006-a324-1b876f188fe8)
-    (property "Reference" "#PWR022" (at 199.39 54.61 0)
+    (property "Reference" "#PWR021" (at 199.39 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 199.39 53.34 0)
@@ -3343,7 +3347,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3404,7 +3408,7 @@
   (symbol (lib_id "power:VCC") (at 264.16 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f52c8462-9f9b-4ba2-802a-97c2c33d5361)
-    (property "Reference" "#PWR028" (at 264.16 83.82 0)
+    (property "Reference" "#PWR026" (at 264.16 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 264.16 76.2 0)
@@ -3420,7 +3424,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3429,7 +3433,7 @@
   (symbol (lib_id "power:GND") (at 200.66 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f884cfc7-cb13-4105-9b81-656587fa603c)
-    (property "Reference" "#PWR017" (at 200.66 118.11 0)
+    (property "Reference" "#PWR022" (at 200.66 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 116.84 0)
@@ -3445,7 +3449,7 @@
     (instances
       (project "morse-transciever"
         (path "/e0e1e6a6-01f9-4250-a810-3bc633c0e15e"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
