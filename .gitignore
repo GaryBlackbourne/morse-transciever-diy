@@ -8,8 +8,10 @@ fp-info-cache
 
 ## kicad netlist files
 *.net
-*.net
 
 ## backups
 morse-transciever-backups
+
+## bom
+cwtcvr.csv
 
