@@ -23,6 +23,6 @@
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 461cd092-d5e0-4cab-bea6-985b097cf1b4))
   (pad "1" smd roundrect (at 0 0) (size 6 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp b27e928c-187f-4a16-b789-1d12c864da69))
-  (pad "2" smd roundrect (at 0 0) (size 6 12) (layers "B.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+  (pad "2" smd roundrect (at 0 0) (size 6.048 12.192) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 2d18960b-e8a8-4b84-93b0-ff0563ed1412))
 )
