@@ -1,0 +1,53 @@
+* Parts for the transciever:
+
+** Capacitors
+
+| 180p | 1 |
+| 220p | 2 |
+| 820p | 1 |
+| 1n   | 2 |
+| 10n  | 2 |
+| 100n | 2 |
+| 10u  | 1 |
+| 22u  | 4 |
+| 47n  | 1 |
+
+** Inductors
+
+| 2u2  | 1 |
+| 12u  | 1 |
+| 39u  | 1 |
+| 470u | 1 |
+
+** Resistors
+
+| 100k | 3 |
+| 47k  | 2 |
+| 1k   | 2 |
+| 10k  | 1 |
+| 10   | 1 |
+
+** Transistors
+
+| BC847       | 1 |
+| PZT2222AT1G | 1 |
+
+** Diodes
+
+| S14      | 3 |
+| Schottky | 1 |
+
+** IC
+
+| lm386 | 1 |
+
+** Christal
+
+| 3579 kHz | 1 |
+
+** Connectivity
+
+| SW-push           | 1 |
+| PWR-in-connector  | 1 |
+| jack-connector    | 1 |
+| Antenna-connector | 1 |
